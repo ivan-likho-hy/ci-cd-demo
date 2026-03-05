@@ -10,7 +10,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: ci-cd-demo
   CONFIG_REPO: k8s-studying
-  KUSTOMIZE_PATH: kustomize/sample-app/overlays/dev
+  KUSTOMIZE_PATH: sample-app/overlays/dev
 
 permissions:
   id-token: write
